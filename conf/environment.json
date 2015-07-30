@@ -1,7 +1,7 @@
 {
 	"ic": {
 		"server": {
-			"path": "/yourPath",
+			"path": "/",
 	    "port": 9290
 	  },
     "database": {

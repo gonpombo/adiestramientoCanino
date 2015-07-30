@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adiestramiento Canino - Ramiro Carrera</title>
+	<!-- CSS -->
+	<link type="text/css" rel="stylesheet" href="css/fullpage.css"/>
+	<link type="text/css" rel="stylesheet" href="css/common.css"/>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+	<link type="text/css" rel="stylesheet" href="css/alto.css"/>
+	<!-- CSS -->
+
+	<!-- JS -->
+	<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="lib/elevator.min.js"></script>
+	<!-- JS -->
+
+</head>
+<body>
+	<ul id="menu">
+		<li data-menuanchor="home"><a href="#home">Adiestramiento Canino</a></li>
+		<li data-menuanchor="quienes-somos" ><a href="#quienes-somos">Quienes Somos</a></li>
+		<li data-menuanchor="servicios" ><a href="#servicios">Servicios</a></li>
+		<li data-menuanchor="galeria" ><a href="#galeria">Galeria</a></li>
+		<li data-menuanchor="contacto" ><a href="#contacto">Contacto</a></li>
+	</ul>
+	<div id="fullpage" class="container">
+    
+    <div class="section" data-anchor="home">
+    	<div class="row">
+    		<div class="col-md-2"></div>
+			  <div class="col-md-4">
+			  	<h1><b>Adiestramiento Canino</b><br><span class="bracket">[</span><span id="welcome-msg">Ramiro Carrera</span><span class="bracket">]</span></h1> <br>
+			  	<h4> El curso de educacion canina tiene como objetivo cogerse a las duenias de los perros</h4>
+			  </div>
+			  <div class="col-md-4">
+	    		<span><img class="banner-photo img-responsive img-rounded" alt="Responsive image" src="img/golden.jpg"></span>
+			  </div>
+			</div>
+    </div>
+
+    <div class="section" data-anchor="quienes-somos">
+    	<h1> Quienes Somos </h1>
+    </div>
+
+    <div class="section" data-anchor="servicios">
+    	<h1> Servicios </h1>
+		</div>
+    <div class="section" data-anchor="galeria">
+  		<div class="slide" data-anchor="slide1"> Foto 1 </div>
+    	<div class="slide" data-anchor="slide2"> Foto 2 </div>
+    	<div class="slide" data-anchor="slide3"> Foto 3 </div>
+    	<div class="slide" data-anchor="slide4"> Foto 4 </div>
+    </div>
+    <div class="section" data-anchor="contacto">Contacto</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+	    $('#fullpage').fullpage({
+        anchors:['home', 'quienes-somos', 'servicios','galeria', 'contacto'],
+        scrollBar: true,
+        menu: "#menu"
+        });
+		});
+	</script>
+</body>
+</html>

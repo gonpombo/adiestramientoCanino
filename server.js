@@ -48,11 +48,6 @@ if(cluster.isMaster) {
 
   base.use(environment.server.path , app);
 
-  // --- Database Connection Singleton ---.
-  var Connector = require('./app/connector/MongoDB');
-  var connector = new Connector();
-  // --- END Database Connection ---.
-
   // --- Socket Web Service ---
   io.on('connection', function(socket) {
     console.log("Socket conected.");
@@ -60,6 +55,6 @@ if(cluster.isMaster) {
   // --- END Socket Web Service --- 
 
   // Route File with all Routes.
-  require("./app/router/routes.js")(app);
+  // require("./app/router/routes.js")(app);
 }
 
