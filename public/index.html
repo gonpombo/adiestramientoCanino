@@ -2,70 +2,150 @@
 <html>
 <head>
 	<title>Adiestramiento Canino - Ramiro Carrera</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- CSS -->
-	<link type="text/css" rel="stylesheet" href="css/fullpage.css"/>
 	<link type="text/css" rel="stylesheet" href="css/common.css"/>
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css"/>
 	<link type="text/css" rel="stylesheet" href="css/alto.css"/>
+	<!--[if lte IE 8]><script src="lib/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	<!-- CSS -->
 
 	<!-- JS -->
 	<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
-	<script type="text/javascript" src="lib/jquery.fullPage.min.js"></script>
-	<script type="text/javascript" src="lib/elevator.min.js"></script>
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/jquery.scrollzer.min.js"></script>
+	<script src="lib/jquery.scrolly.min.js"></script>
+	<script src="lib/skel.min.js"></script>
+	<script src="lib/util.js"></script>
+	<!--[if lte IE 8]><script src="lib/ie/respond.min.js"></script><![endif]-->
+	<script src="lib/main.js"></script>
 	<!-- JS -->
 
 </head>
 <body>
-	<ul id="menu">
-		<li data-menuanchor="home"><a href="#home">Adiestramiento Canino</a></li>
-		<li data-menuanchor="quienes-somos" ><a href="#quienes-somos">Quienes Somos</a></li>
-		<li data-menuanchor="servicios" ><a href="#servicios">Servicios</a></li>
-		<li data-menuanchor="galeria" ><a href="#galeria">Galeria</a></li>
-		<li data-menuanchor="contacto" ><a href="#contacto">Contacto</a></li>
-	</ul>
-	<div id="fullpage" class="container">
-	    <div class="section" data-anchor="home">
-	    	<div class="row">
-	    		<div class="col-md-2"></div>
-				<div class="col-md-4">
-					<h1><b>Adiestramiento Canino</b><br><span class="bracket">[</span><span id="welcome-msg">Ramiro Carrera</span><span class="bracket">]</span></h1> <br>
-					<h4> El curso de educacion canina tiene como objetivo cogerse a las duenias de los perros</h4>
-				</div>
-				<div class="col-md-4">
-					<span><img class="banner-photo img-responsive img-rounded" alt="Responsive image" src="img/golden.jpg"></span>
-				</div>
-			</div>
-	    </div>
+	<section id="header">
+		<header>
+			<span class="image avatar"><img src="img/golden.jpg" alt="" /></span>
+			<h1 id="logo"><a href="#">Adiestramiento Canino</a></h1>
+			<p>Ramiro Carrera</p>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li><a href="#quienessomos" class="active">Quienes Somos</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#galeria">Galeria</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+		<footer>
+			<ul class="icons">
+				<li><a href="https://www.facebook.com/Adiestramiento.Canino.RamiroCarrera?fref=nf" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://instagram.com/carreritaaa/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+			</ul>
+		</footer>
+	</section>
 
-	    <div class="section" data-anchor="quienes-somos">
-	    	<h1> Quienes Somos </h1>
-	    </div>
+	<div id="wrapper">
+		<div id="main">
+			<section id="quienessomos">
+				<div class="container">
+					<header class="major">
+						<h2>Adiestramiento Canino</h2>
+						<p>Ramiro Carrera</p>
+					</header>
+					<p>El curso de educacion canina tiene como objetivo cogerse a las duenias de los perros.</p>
+				</div>
+			</section>
 
-	    <div class="section" data-anchor="servicios">
-	    	<h1> Servicios </h1>
+			<section id="servicios">
+				<div class="container">
+					<h3>Servicios</h3>
+					<p>lala.</p>
+					<ul class="feature-icons">
+						<li class="fa-code">violacion</li>
+						<li class="fa-cubes">acoso</li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="galeria">
+				<div class="container">
+					<h3>Galeria fotografica</h3>
+					<p>BDBDBDBDBS.</p>
+					<div class="features">
+						<article>
+							<a href="#" class="image"><img src="img/2015-07-31.jpg" alt="" /></a>
+							<div class="inner">
+								<h4>Possibly broke spacetime</h4>
+								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+							</div>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="img/2015-07-31 (1).jpg" alt="" /></a>
+							<div class="inner">
+								<h4>Terraformed a small moon</h4>
+								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+							</div>
+						</article>
+						<article>
+							<div class="inner">
+								<div class="fb-post" data-href="https://www.facebook.com/Adiestramiento.Canino.RamiroCarrera/photos/a.404794032944894.92524.342158979208400/861935433897416/?type=1"></div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<section id="contacto">
+				<div class="container">
+					<h3>Contacto</h3>
+					<p>Envie su consulta.</p>
+					<form method="post" action="#">
+						<div class="row uniform">
+							<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+							<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+						</div>
+						<div class="row uniform">
+							<div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+						</div>
+						<div class="row uniform">
+							<div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+						</div>
+						<div class="row uniform">
+							<div class="12u">
+								<ul class="actions">
+									<li><input type="submit" class="special" value="Send Message" /></li>
+									<li><input type="reset" value="Reset Form" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
 		</div>
 
-	    <div class="section" data-anchor="galeria">
-	  		<div class="slide" data-anchor="slide1">Foto 1 </div>
-	    	<div class="slide" data-anchor="slide2">Foto 2 </div>
-	    	<div class="slide" data-anchor="slide3">Foto 3 </div>
-	    	<div class="slide" data-anchor="slide4">Foto 4 </div>
-	    </div>
-
-	    <div class="section" data-anchor="contacto">Contacto</div>
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<ul class="copyright">
+					<li>&copy; Adiestramiento Canino RC. All rights reserved.</li><li>Design: <a href="http://stingo.com.ar/cv/">El Negro</a></li>
+				</ul>
+			</div>
+		</section>
 	</div>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-	    $('#fullpage').fullpage({
-        anchors:['home', 'quienes-somos', 'servicios','galeria', 'contacto'],
-        scrollBar: true,
-        menu: "#menu"
-        });
-		});
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.2";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
 	</script>
 </body>
 </html>
