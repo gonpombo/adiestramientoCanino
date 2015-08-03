@@ -4,3 +4,20 @@
 	height: 30%;
 	width: 30%;
 }
+
+
+#nav {
+
+	margin-top: -25px;
+}
+
+#logo {
+	margin-top: -20px !important;
+}
+
+#perroPortada {
+	height: 400px;
+	width: 500px;
+	margin-top: -93px;
+	margin-bottom: -70px
+}
