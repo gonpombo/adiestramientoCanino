@@ -16,13 +16,15 @@
 }
 
 #perroPortada {
-	width: 70%;
+	width: 60%;
 	margin-top: -12%;
-	margin-bottom: -70px
+	margin-bottom: -8%;
 }
+
 .icons {
 	width: 100%;
 }
+
 .icons li a {
 	transition: all .2s ease-in-out; 
 }
