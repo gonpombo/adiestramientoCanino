@@ -41,6 +41,10 @@
 .modal-body {
 	padding: 2px;
 }
+
+.imgGal:hover {
+	/*box-shadow: 1px 1px 2px #BBB;*/
+}
 /*
 .image img:hover {
 -webkit-animation: cssAnimation 2.5s 1 ease-in;
