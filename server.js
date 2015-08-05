@@ -58,11 +58,3 @@ if(cluster.isMaster) {
   // require("./app/router/routes.js")(app);
 }
 
-
-
-$(".imgGal").on("click", function() {
-  alert("hola");
-   // $('#imagepreview').attr('src', $('#imageresource').attr('src'));
-   // $('#imagemodal').modal('show');
-   
-});
