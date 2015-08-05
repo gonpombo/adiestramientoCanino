@@ -19,11 +19,12 @@
 
 	<!-- JS -->
 	<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
 	<script src="lib/jquery.min.js"></script>
 	<script src="lib/jquery.scrollzer.min.js"></script>
 	<script src="lib/jquery.scrolly.min.js"></script>
 	<script src="lib/skel.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+
 	<script src="lib/util.js"></script>
 	<!--[if lte IE 8]><script src="lib/ie/respond.min.js"></script><![endif]-->
 	<script src="lib/main.js"></script>
@@ -132,19 +133,19 @@
 					<h3>Galeria fotografica</h3>
 					<div class="box alt">
 						<div class="row 50% uniform">
-							<div class="4u"><span class="image fit"><img src="img/2015-07-31 (1).jpg" alt="" /></span></div>
-							<div class="4u"><span class="image fit"><img src="img/2015-07-31 (5).jpg" alt="" /></span></div>
-							<div class="4u"><span class="image fit"><img src="img/2015-07-31 (4).jpg" alt="" /></span></div>
+							<div class="4u"><span class="image fit"><img class="imgGal" src="img/2015-07-31 (1).jpg" alt="" /></span></div>
+							<div class="4u"><span class="image fit"><img class="imgGal" src="img/2015-07-31 (5).jpg" alt="" /></span></div>
+							<div class="4u"><span class="image fit"><img class="imgGal" src="img/2015-07-31 (4).jpg" alt="" /></span></div>
 						</div>
 						<div class="row 50% uniform">
-							<div class="4u"><span class="image fit"><img src="img/2015-07-31 (2).jpg" alt="" /></span></div>
-							<div class="4u"><span class="image fit"><img src="img/2015-07-31 (3).jpg" alt="" /></span></div>
-							<div class="4u"><span class="image fit"><img src="img/11046788_10205503020589512_911880023987411426_n.jpg" alt="" /></span></div>
+							<div class="4u"><span class="image fit"><img class="imgGal" src="img/2015-07-31 (2).jpg" alt="" /></span></div>
+							<div class="4u"><span class="image fit"><img class="imgGal" src="img/2015-07-31 (3).jpg" alt="" /></span></div>
+							<div class="4u"><span class="image fit"><img class="imgGal" src="img/11046788_10205503020589512_911880023987411426_n.jpg" alt="" /></span></div>
 						</div>
 						<div class="row 50% uniform">
-							<div class="4u"><span class="image fit"><img src="img/11800459_10205503042510060_4808147185041084211_n.jpg" alt="" /></span></div>
-							<div class="4u"><span class="image fit"><img src="img/2015-07-31.jpg" alt="" /></span></div>
-							<div class="4u"><span class="image fit"><img src="img/golden.jpg" alt="" /></span></div>
+							<div class="4u"><span class="image fit"><img class="imgGal" src="img/11800459_10205503042510060_4808147185041084211_n.jpg" alt="" /></span></div>
+							<div class="4u"><span class="image fit"><img class="imgGal" src="img/2015-07-31.jpg" alt="" /></span></div>
+							<div class="4u"><span class="image fit"><img class="imgGal" src="img/golden.jpg" alt="" /></span></div>
 						</div>
 					</div>
 				</div>
@@ -161,14 +162,14 @@
 					<p>Envie su consulta.</p>
 					<form method="post" action="#">
 						<div class="row uniform">
-							<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" required/></div>
+							<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Nombre" required/></div>
 							<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" required/></div>
 						</div>
 						<div class="row uniform">
-							<div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" required/></div>
+							<div class="12u"><input type="text" name="subject" id="subject" placeholder="Asunto" required/></div>
 						</div>
 						<div class="row uniform">
-							<div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6" required></textarea></div>
+							<div class="12u"><textarea name="message" id="message" placeholder="Mensaje" rows="6" required></textarea></div>
 						</div>
 						<div class="row uniform">
 							<div class="12u">
@@ -192,6 +193,55 @@
 			</div>
 		</section>
 	</div>
+
+
+
+
+
+
+
+
+
+
+ 
+<!-- Modal -->
+<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
+       
+      </div>
+      <div class="modal-body">
+        <img src="" id="imagepreview" >
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<script>
 		(function(d, s, id) {

@@ -111,3 +111,18 @@
 	});
 
 })(jQuery);
+
+
+
+
+
+$( document ).ready(function() {
+ 	
+  	console.log( "ready!" );
+	$(".imgGal").on("click", function() {
+	    $('#imagepreview').attr('src', $(this).attr('src'));
+	    $('#imagemodal').modal('show');
+	   
+	});
+
+});
