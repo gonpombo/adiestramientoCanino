@@ -32,7 +32,7 @@ if(cluster.isMaster) {
     compression = require("compression"),
     errorhandler = require("errorhandler"),
     base = express(),
-    server = require('http').Server(base).listen(environment.server.port),
+    server = require('http').Server(base).listen((process.env.PORT || 5000)),
     io = require("socket.io")(server, {path: environment.server.path + "/socket.io"});
   // --- END Requirements ---
 

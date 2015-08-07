@@ -1,5 +1,5 @@
 {
-  "name": "nodelistar",
+  "name": "Adiestramiento",
   "version": "1.0.0",
   "description": "Start Kit NodeJs",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gonpombo/Nodelistar.git"
+    "url": "git+https://github.com/gonpombo/adiestramientoCanino.git"
   },
   "author": "gonpombo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gonpombo/Nodelistar/issues"
+    "url": "https://github.com/gonpombo/adiestramientoCanino/issues"
   },
-  "homepage": "https://github.com/gonpombo/Nodelistar#readme",
+  "homepage": "https://github.com/gonpombo/adiestramientoCanino#readme",
   "dependencies": {
     "express": "^4.12.4",
     "body-parser": "^1.5.2",
@@ -30,5 +30,13 @@
     "http": "",
     "lodash": "",
     "domain-middleware": ""
-  }
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
 }

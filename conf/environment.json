@@ -1,8 +1,7 @@
 {
 	"ic": {
 		"server": {
-			"path": "/",
-	    "port": 9290
+			"path": "/"
 	  },
     "database": {
  	   "mongoUrl": "mongodb://127.0.0.1:27017/algo"
